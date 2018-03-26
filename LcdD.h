@@ -1,0 +1,24 @@
+
+////////////////////////////////////////////////
+//////////ProtoTypes////////////////////////////
+////////////////////////////////////////////////
+void LCD_COMMAND(uint8_t command);
+void LCD_DATA(uint8_t data);
+void LCD_INIT(void);
+void LCD_GoToXY(uint8_t x,uint8_t y);
+void LCD_Print(uint8_t *str);
+void delay(uint32_t Time_us);
+
+////////////////////////////////////////////////
+//////////Configrations/////////////////////////
+////////////////////////////////////////////////
+#define LCD_RSPin 2
+#define LCD_RWPin 3
+#define LCD_ENPin 4
+
+#define LCD_d7Pin  23
+#define LCD_d6Pin  22
+#define LCD_d5Pin  21
+#define LCD_d4Pin  20
+
+
